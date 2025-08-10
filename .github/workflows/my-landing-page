@@ -1,1 +1,56 @@
 HTML (index.html):
+
+
+html
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial- scale=1.0">
+<title> Landing Page - Product Showcase</title>
+link rel= "stylesheet" href="styles.css">
+</head>
+<body>
+
+<!- - Hero Section -->
+
+<header>
+<div class="hero-container">
+<h1>Welcome to the Future of Tech</h1>
+<p>Indroducing the revolutionary product that will change your life</p>
+<a href="contact " class="cta-btn"> Get Started</a>
+</div>
+</header>
+
+<!- - Features Section - - >
+
+<section id=feature-item">
+<h2>Product Features</h2>
+</div>
+<div class="feature-item">
+<h3>Feature 3</h3>
+<p>Designed with the user in mind - sleek, intuitive, and powerful.</p>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+<h2>About Us</h2>
+<p> Our product is built with a passion for innovation. We aim to bring the future into the </section>
+
+<!-- Contact Section -->
+<section id="contact">
+<h2> Contact Us</h2>
+<form id="contact-form">
+<input type="email" id="email" placeholder="Your Email" required>
+<text area id="message" placeholder="Your Message" required></textarea>
+>button type="submit">Send Message</button>
+</form>
+</section>
+
+<script src="script.jts"></script>
+</body>
+</html>
