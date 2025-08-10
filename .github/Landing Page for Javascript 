@@ -1,0 +1,13 @@
+javascript
+
+// Simple form validation 
+document.getElementById('contact-form').addEventListener('submit', functio(event) {
+event.preventDefault();
+
+const email = document.getElementById('contact-form').value;
+const message = document.getElementById('message').value;
+
+if (email | | !message) {
+alert(Please fill in all fields.');
+} else {
+alert('Thank you for your message
